@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.425)),
+    url(../images/mosaic-alien-on-wall-1670977.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 18rem;
+  height: 4rem;
+  color: rgb(172, 0, 0);
+  transition: letter-spacing 0.3s ease-in-out;
+  outline-style: none;
+  // border-bottom: 1px solid;
+
+  img {
+    width: 2.5rem;
+    margin-right: 2rem;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid;
+    border-color: rgb(39, 128, 245);
+    transform: scaleX(1);
+
+    transition: 300ms ease-in-out;
+  }
+
+  &:hover {
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  letter-spacing: 0.4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 6.5rem;
+}
+
+h4 {
+  font-size: 3rem;
+  font-weight: lighter;
+  color: white;
+}

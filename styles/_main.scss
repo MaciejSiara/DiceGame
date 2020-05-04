@@ -150,7 +150,8 @@
     }
 
     .new-game-section {
-      display: none;
+      display: block;
+    
       .input-container {
         padding: 1rem;
         @include flex(center, center, column);

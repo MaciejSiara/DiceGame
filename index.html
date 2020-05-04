@@ -4,11 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:100i,300,400&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100i,300,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/style.css" />
     <script src="./script.js" defer></script>
   </head>
@@ -21,19 +18,28 @@
         <div class="container-content">
           <div class="new-game-section">
             <div class="input-container">
-              <input type="number" min="20" max="200" placeholder="Enter score" name="set-score" id="set-score" required>
-              <label for="set-score">Set the winning score here</label>
+              <input
+                type="number"
+                min="20"
+                max="200"
+                placeholder="Enter score"
+                name="set-score"
+                id="set-score"
+                required
+              />
+              <label for="set-score">Set the winning score (20-200)</label>
             </div>
             <div class="rules">
               <h2>Rules</h2>
               <ul>
                 <li>First player who gets winning score wins!!!</li>
-                <li>If you roll 1 it's next player turn. You lost current score.</li>
+                <li>
+                  If you roll 1 it's next player turn. You lost current score.
+                </li>
                 <li>If you roll two 6s in a row you lose your ENTIRE score.</li>
               </ul>
               <button class="play-button">PLAY</button>
             </div>
-            
           </div>
         </div>
       </div>
@@ -41,20 +47,14 @@
     <div class="game-section">
       <div class="buttons">
         <div class="button-container">
-          <button class="new-game btn">
-            <img src="./icons/plus.svg" alt="new-game-image" />New Game
-          </button>
+          <button class="new-game btn"><img src="./icons/plus.svg" alt="new-game-image" />New Game</button>
         </div>
         <div class="dice-image">
           <img id="dice" src="" alt="" />
         </div>
         <div class="options button-container">
-          <button class="roll-dice btn">
-            <img src="./icons/load.svg" alt="reroll-image" />Roll dice
-          </button>
-          <button class="hold btn">
-            <img src="./images/download.png" alt="hold-image" />hold
-          </button>
+          <button class="roll-dice btn"><img src="./icons/load.svg" alt="reroll-image" />Roll dice</button>
+          <button class="hold btn"><img src="./images/download.png" alt="hold-image" />hold</button>
         </div>
       </div>
       <div class="players-section">

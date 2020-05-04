@@ -335,7 +335,7 @@ h4 {
 }
 
 .new-game-popup .container .new-game-section {
-  display: none;
+  display: block;
 }
 
 .new-game-popup .container .new-game-section .input-container {
